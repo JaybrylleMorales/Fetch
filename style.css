@@ -70,6 +70,11 @@ button:hover i{
     gap: 20px;
   }
 
+  #results {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
   .manga-card{
     box-shadow: inset;
     color: white;
@@ -78,11 +83,17 @@ button:hover i{
     box-sizing: border-box;
     border: 1px solid #ddd;
     padding: 10px;
+    margin-top: 30px;
     text-align: center;
     text-shadow: black;
+    flex-direction: column;
+    background: rgba(37, 4, 4, 0.8);
+    box-shadow: 0px 0px 10px rgba(102, 59, 59, 0.3);
+
   }
 
   .manga-card img {
+    font-size: larger;
     padding-top: 20px;
     margin-top: 20px;
     max-width: 100%;
